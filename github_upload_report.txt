@@ -1,0 +1,78 @@
+GitHub repository URL:
+https://github.com/Evgeniy-powerpoint/carcompany-ai-sequences
+
+Branch name:
+main
+
+Local commit SHA:
+a49d2bd236a8efaffe5a036141c1355a31c659d2
+
+Source folder:
+C:\Users\Админ\Desktop\CarCompanyAI
+
+Uploaded folders present locally:
+- Comp 7_WEBP
+- Comp 7_WEBP_150
+- final_exports
+- map-route
+- map-route_150
+- Pre-comp 1_WEBP
+- Pre-comp 1_WEBP_150
+
+Total file count:
+1186
+
+Preferred repository name:
+carcompany-ai-sequences
+
+Fallback repository name:
+carcompany-ai-final-sequences
+
+Git remote configured locally:
+origin https://github.com/Evgeniy-powerpoint/carcompany-ai-sequences.git
+
+GitHub folder links for final scene package:
+- https://github.com/Evgeniy-powerpoint/carcompany-ai-sequences/tree/main/final_exports/hero-interior
+- https://github.com/Evgeniy-powerpoint/carcompany-ai-sequences/tree/main/final_exports/map-route
+- https://github.com/Evgeniy-powerpoint/carcompany-ai-sequences/tree/main/final_exports/vehicle-scene
+
+Direct raw URL examples for each scene:
+- hero-interior first frame: https://raw.githubusercontent.com/Evgeniy-powerpoint/carcompany-ai-sequences/main/final_exports/hero-interior/frame_001_00000.webp
+- hero-interior last frame: https://raw.githubusercontent.com/Evgeniy-powerpoint/carcompany-ai-sequences/main/final_exports/hero-interior/frame_001_00149.webp
+- map-route first frame: https://raw.githubusercontent.com/Evgeniy-powerpoint/carcompany-ai-sequences/main/final_exports/map-route/frame_001_00000.webp
+- map-route last frame: https://raw.githubusercontent.com/Evgeniy-powerpoint/carcompany-ai-sequences/main/final_exports/map-route/frame_001_00149.webp
+- vehicle-scene first frame: https://raw.githubusercontent.com/Evgeniy-powerpoint/carcompany-ai-sequences/main/final_exports/vehicle-scene/frame_001_00000.webp
+- vehicle-scene last frame: https://raw.githubusercontent.com/Evgeniy-powerpoint/carcompany-ai-sequences/main/final_exports/vehicle-scene/frame_001_00149.webp
+
+jsDelivr CDN links:
+- https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/carcompany-ai-sequences@main/final_exports/hero-interior/
+- https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/carcompany-ai-sequences@main/final_exports/map-route/
+- https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/carcompany-ai-sequences@main/final_exports/vehicle-scene/
+
+jsDelivr frame examples:
+- hero-interior first frame: https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/carcompany-ai-sequences@main/final_exports/hero-interior/frame_001_00000.webp
+- map-route first frame: https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/carcompany-ai-sequences@main/final_exports/map-route/frame_001_00000.webp
+- vehicle-scene first frame: https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/carcompany-ai-sequences@main/final_exports/vehicle-scene/frame_001_00000.webp
+
+Final scene folder confirmation:
+- hero-interior: 150 files, first frame_001_00000.webp, last frame_001_00149.webp
+- map-route: 150 files, first frame_001_00000.webp, last frame_001_00149.webp
+- vehicle-scene: 150 files, first frame_001_00000.webp, last frame_001_00149.webp
+
+Issues encountered:
+- The local Git repository was initialized and committed successfully.
+- No single file exceeded GitHub's 100 MB normal file limit.
+- GitHub CLI was not available in the environment.
+- No GitHub token or credential helper was available for authenticated repository creation or push.
+- The target repository did not exist yet at the prepared URL.
+- Push attempt failed because the repository was not found:
+  remote: Repository not found.
+  fatal: repository 'https://github.com/Evgeniy-powerpoint/carcompany-ai-sequences.git/' not found
+
+Validation status:
+- Local folder structure preserved exactly.
+- Local files were not renamed, regenerated, resized, or modified for this task.
+- Public URL patterns have been prepared, but they are not live until the public repository is created and the commit is pushed.
+
+Final status:
+FAILED

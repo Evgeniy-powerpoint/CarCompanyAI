@@ -1,0 +1,57 @@
+Local source folder used:
+C:\Users\Админ\Desktop\CarCompanyAI
+
+GitHub repository URL:
+https://github.com/Evgeniy-powerpoint/CarCompanyAI
+
+Git remote URL:
+git@github.com:Evgeniy-powerpoint/CarCompanyAI.git
+
+Branch name:
+main
+
+Commit hash:
+PENDING_PUSH
+
+Uploaded folder structure:
+- Comp 7_WEBP
+- Comp 7_WEBP_150
+- final_exports
+- final_exports/hero-interior
+- final_exports/map-route
+- final_exports/vehicle-scene
+- map-route
+- map-route_150
+- Pre-comp 1_WEBP
+- Pre-comp 1_WEBP_150
+
+Total uploaded file count:
+1187
+
+Scene folder links:
+- hero-interior: https://github.com/Evgeniy-powerpoint/CarCompanyAI/tree/main/final_exports/hero-interior
+- map-route: https://github.com/Evgeniy-powerpoint/CarCompanyAI/tree/main/final_exports/map-route
+- vehicle-scene: https://github.com/Evgeniy-powerpoint/CarCompanyAI/tree/main/final_exports/vehicle-scene
+
+Raw first-frame and last-frame links:
+- hero-interior first: https://raw.githubusercontent.com/Evgeniy-powerpoint/CarCompanyAI/main/final_exports/hero-interior/frame_001_00000.webp
+- hero-interior last: https://raw.githubusercontent.com/Evgeniy-powerpoint/CarCompanyAI/main/final_exports/hero-interior/frame_001_00149.webp
+- map-route first: https://raw.githubusercontent.com/Evgeniy-powerpoint/CarCompanyAI/main/final_exports/map-route/frame_001_00000.webp
+- map-route last: https://raw.githubusercontent.com/Evgeniy-powerpoint/CarCompanyAI/main/final_exports/map-route/frame_001_00149.webp
+- vehicle-scene first: https://raw.githubusercontent.com/Evgeniy-powerpoint/CarCompanyAI/main/final_exports/vehicle-scene/frame_001_00000.webp
+- vehicle-scene last: https://raw.githubusercontent.com/Evgeniy-powerpoint/CarCompanyAI/main/final_exports/vehicle-scene/frame_001_00149.webp
+
+jsDelivr CDN links:
+- hero-interior: https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/CarCompanyAI@main/final_exports/hero-interior/
+- map-route: https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/CarCompanyAI@main/final_exports/map-route/
+- vehicle-scene: https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/CarCompanyAI@main/final_exports/vehicle-scene/
+
+Validation result:
+- Source folder contains the final_exports package with hero-interior, map-route, and vehicle-scene.
+- Each main scene folder contains 150 WEBP frames from frame_001_00000.webp to frame_001_00149.webp.
+- No local file exceeds GitHub's 100 MB normal file limit.
+- Remote repository exists publicly and is targeted for this push.
+- Public URL verification pending successful push.
+
+Final status:
+PENDING_PUSH
