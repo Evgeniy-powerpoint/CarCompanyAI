@@ -1,0 +1,39 @@
+Sequence extension report
+Project root: C:\Users\Админ\Desktop\CarCompanyAI
+
+Source folder: map-route
+Source frame count: 90
+Output folder: map-route_150
+Output frame count: 150
+Naming pattern used: frame_001.webp ... frame_150.webp
+File format: WEBP
+Method used to create intermediate frames: used the existing ordered WEBP frames only; interpolated in-between motion with ffmpeg minterpolate into a temporary 150-frame video, then extracted a 150-frame WEBP sequence and restored the original first and last source frames as frame_001.webp and frame_150.webp
+Issues encountered: direct full-length WEBP sequence export was unstable with heavier compression settings in this shell, so the sequence was completed through a temporary interpolation video and then extracted back to WEBP; no scene content was regenerated
+Final status: SUCCESS
+
+Source folder: Pre-comp 1_WEBP
+Source frame count: 90
+Output folder: Pre-comp 1_WEBP_150
+Output frame count: 150
+Naming pattern used: frame_001.webp ... frame_150.webp
+File format: WEBP
+Method used to create intermediate frames: used the existing ordered WEBP frames only; interpolated in-between motion with ffmpeg minterpolate into a temporary 150-frame video, then extracted a 150-frame WEBP sequence and restored the original first and last source frames as frame_001.webp and frame_150.webp
+Issues encountered: direct output into the spaced folder name was less reliable in this shell, so the sequence was staged and then renamed into the final folder; no scene content was regenerated
+Final status: SUCCESS
+
+Source folder: Comp 7_WEBP
+Source frame count: 90
+Output folder: Comp 7_WEBP_150
+Output frame count: 150
+Naming pattern used: frame_001.webp ... frame_150.webp
+File format: WEBP
+Method used to create intermediate frames: used the existing ordered WEBP frames only; interpolated in-between motion with ffmpeg minterpolate into a temporary 150-frame video, then extracted a 150-frame WEBP sequence and restored the original first and last source frames as frame_001.webp and frame_150.webp
+Issues encountered: this source needed a slightly higher interpolation cadence to reach exactly 150 frames cleanly in the current environment; no scene content was regenerated
+Final status: SUCCESS
+
+Validation summary
+- map-route_150: 150 WEBP files, sequential numbering from frame_001.webp to frame_150.webp, no missing numbers, no extra filenames, source dimensions preserved at 1440x880, first and last frame match the original sequence endpoints exactly
+- Pre-comp 1_WEBP_150: 150 WEBP files, sequential numbering from frame_001.webp to frame_150.webp, no missing numbers, no extra filenames, source dimensions preserved at 390x844, first and last frame match the original sequence endpoints exactly
+- Comp 7_WEBP_150: 150 WEBP files, sequential numbering from frame_001.webp to frame_150.webp, no missing numbers, no extra filenames, source dimensions preserved at 390x844, first and last frame match the original sequence endpoints exactly
+
+Overall final status: SUCCESS

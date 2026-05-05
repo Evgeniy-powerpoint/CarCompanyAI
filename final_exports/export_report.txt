@@ -1,0 +1,51 @@
+Final export package: C:\Users\Админ\Desktop\CarCompanyAI\final_exports
+
+Scene: hero-interior
+Source files/folders used: C:\Users\Админ\Desktop\CarCompanyAI\map-route
+Source notes: existing 90-frame WEBP sequence, 1440x880
+Method used to reach 150 frames: interpolated existing 90-frame sequence to 150 frames with ffmpeg minterpolate; resized to fit within 1920x880 and padded to exact canvas size without aspect-ratio distortion
+Final frame count: 150
+Resolution confirmation: 1920x880 on all frames
+Format confirmation: WEBP on all frames
+First filename: frame_001_00000.webp
+Last filename: frame_001_00149.webp
+Issues encountered: source scene name inferred from available assets; mapped the existing wide interior/dashboard sequence to hero-interior
+Scene status: SUCCESS
+
+Scene: map-route
+Source files/folders used: C:\Users\Админ\Desktop\CarCompanyAI\Pre-comp 1_WEBP
+Source notes: existing 90-frame WEBP sequence, 390x844
+Method used to reach 150 frames: interpolated existing 90-frame sequence to 150 frames with ffmpeg minterpolate; resized to fit within 1920x880 and padded to exact canvas size without aspect-ratio distortion
+Final frame count: 150
+Resolution confirmation: 1920x880 on all frames
+Format confirmation: WEBP on all frames
+First filename: frame_001_00000.webp
+Last filename: frame_001_00149.webp
+Issues encountered: source scene name inferred from available assets; mapped the existing route-screen zoom sequence to map-route
+Scene status: SUCCESS
+
+Scene: vehicle-scene
+Source files/folders used: C:\Users\Админ\Desktop\CarCompanyAI\Comp 7_WEBP
+Source notes: existing 90-frame WEBP sequence, 390x844
+Method used to reach 150 frames: interpolated existing 90-frame sequence to 150 frames with ffmpeg minterpolate; resized to fit within 1920x880 and padded to exact canvas size without aspect-ratio distortion
+Final frame count: 150
+Resolution confirmation: 1920x880 on all frames
+Format confirmation: WEBP on all frames
+First filename: frame_001_00000.webp
+Last filename: frame_001_00149.webp
+Issues encountered: source scene name inferred from available assets; mapped the existing vehicle-card transition sequence to vehicle-scene
+Scene status: SUCCESS
+
+Validation summary
+- hero-interior: 150 WEBP frames, numbering complete from 00000 to 00149, no missing frames, no duplicate filenames, no unwanted suffixes, first and last frames verified by probe
+- map-route: 150 WEBP frames, numbering complete from 00000 to 00149, no missing frames, no duplicate filenames, no unwanted suffixes, first and last frames verified by probe
+- vehicle-scene: 150 WEBP frames, numbering complete from 00000 to 00149, no missing frames, no duplicate filenames, no unwanted suffixes, first and last frames verified by probe
+
+Optional slide 3.1 loader note
+- No clearly separate source scene specifically identified for a loader-only animation in the available local assets
+
+Hosting prep
+- Local export package is hosting-ready and organized for direct-file URL hosting after upload
+- Public upload was not performed in the current environment
+
+Final status: SUCCESS
