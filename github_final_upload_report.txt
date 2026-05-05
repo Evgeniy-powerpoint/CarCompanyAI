@@ -10,8 +10,8 @@ git@github.com:Evgeniy-powerpoint/CarCompanyAI.git
 Branch name:
 main
 
-Commit hash:
-PENDING_PUSH
+Upload commit hash:
+5efacf2146a509ec61a8e3e231d3dd4dd40cf5f1
 
 Uploaded folder structure:
 - Comp 7_WEBP
@@ -26,7 +26,7 @@ Uploaded folder structure:
 - Pre-comp 1_WEBP_150
 
 Total uploaded file count:
-1187
+1188
 
 Scene folder links:
 - hero-interior: https://github.com/Evgeniy-powerpoint/CarCompanyAI/tree/main/final_exports/hero-interior
@@ -47,11 +47,17 @@ jsDelivr CDN links:
 - vehicle-scene: https://cdn.jsdelivr.net/gh/Evgeniy-powerpoint/CarCompanyAI@main/final_exports/vehicle-scene/
 
 Validation result:
+- Repository page opens publicly: https://github.com/Evgeniy-powerpoint/CarCompanyAI
+- Scene folder pages open publicly:
+  https://github.com/Evgeniy-powerpoint/CarCompanyAI/tree/main/final_exports/hero-interior
+  https://github.com/Evgeniy-powerpoint/CarCompanyAI/tree/main/final_exports/map-route
+  https://github.com/Evgeniy-powerpoint/CarCompanyAI/tree/main/final_exports/vehicle-scene
 - Source folder contains the final_exports package with hero-interior, map-route, and vehicle-scene.
 - Each main scene folder contains 150 WEBP frames from frame_001_00000.webp to frame_001_00149.webp.
+- First and last raw GitHub frame URLs for all three main scenes were verified through the GitHub connector.
+- jsDelivr hero-interior first-frame CDN URL responded publicly.
 - No local file exceeds GitHub's 100 MB normal file limit.
-- Remote repository exists publicly and is targeted for this push.
-- Public URL verification pending successful push.
+- Folder structure on GitHub matches the local final package pathing used for upload.
 
 Final status:
-PENDING_PUSH
+SUCCESS
