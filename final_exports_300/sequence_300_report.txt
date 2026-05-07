@@ -1,0 +1,54 @@
+source folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_repo\final_exports
+output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_repo\final_exports_300
+source frame count: 150
+output frame count: 300
+format: WEBP
+method used: Timeline resampling with alpha-aware linear blending between adjacent WEBP frames; first and last frames copied exactly from source.
+
+validation per scene:
+- scene: hero-interior
+  source folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_repo\final_exports\hero-interior
+  output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_repo\final_exports_300\hero-interior
+  source frame count: 150
+  output frame count: 300
+  dimensions preserved: 1920x880
+  first file: frame_001_00000.webp
+  last file: frame_001_00299.webp
+  missing numbers: None
+  duplicate filenames: 0
+  unwanted suffixes: None
+  first frame opens: True
+  last frame opens: True
+  validation result: SUCCESS
+
+- scene: map-route
+  source folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_repo\final_exports\map-route
+  output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_repo\final_exports_300\map-route
+  source frame count: 150
+  output frame count: 300
+  dimensions preserved: 1920x880
+  first file: frame_001_00000.webp
+  last file: frame_001_00299.webp
+  missing numbers: None
+  duplicate filenames: 0
+  unwanted suffixes: None
+  first frame opens: True
+  last frame opens: True
+  validation result: SUCCESS
+
+- scene: vehicle-scene
+  source folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_repo\final_exports\vehicle-scene
+  output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_repo\final_exports_300\vehicle-scene
+  source frame count: 150
+  output frame count: 300
+  dimensions preserved: 1920x880
+  first file: frame_001_00000.webp
+  last file: frame_001_00299.webp
+  missing numbers: None
+  duplicate filenames: 0
+  unwanted suffixes: None
+  first frame opens: True
+  last frame opens: True
+  validation result: SUCCESS
+
+final status: SUCCESS
