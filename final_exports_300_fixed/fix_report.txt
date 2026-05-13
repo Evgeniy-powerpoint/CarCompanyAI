@@ -1,0 +1,71 @@
+source folders used:
+- hero-interior: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\map-route_150
+- map-route: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\Pre-comp 1_WEBP_150
+- vehicle-scene: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports\vehicle-scene
+
+what was wrong in previous 300-frame version:
+- previous final_exports_300 was produced with linear blended in-between frames, causing ghosted/soft intermediate frames
+- map-route contained very large black side padding; hero-interior also had black side padding late in the sequence
+
+method used to remove black side bars:
+- detected dark side padding from edge-column black ratios
+- cropped detected black side padding when present
+- resized with aspect-preserving fit and frame-derived background fill when the source aspect ratio could not fill 1920x880 cleanly
+
+method used to detect/fix blurred frames:
+- measured Laplacian-style sharpness on source frames
+- replaced significantly blurrier source anchors with the sharper adjacent source frame
+- expanded 150 to 300 using nearest-frame temporal resampling, not linear blending
+
+WEBP quality settings:
+- quality: 96
+- method: 6
+- dimensions: 1920x880
+
+validation result per scene:
+- scene: hero-interior
+  output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports_300_fixed\hero-interior
+  source frame count: 150
+  output frame count: 300
+  first frame: frame_001_00000.webp
+  last frame: frame_001_00299.webp
+  normalization methods: crop-cover-resize
+  side-bar fixes applied: 4
+  blur source anchors replaced: 0
+  missing numbers: None
+  bad dimensions: None
+  remaining black side-bar issues: 0
+  validation result: SUCCESS
+
+- scene: map-route
+  output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports_300_fixed\map-route
+  source frame count: 150
+  output frame count: 300
+  first frame: frame_001_00000.webp
+  last frame: frame_001_00299.webp
+  normalization methods: crop-fit-background-fill
+  side-bar fixes applied: 0
+  blur source anchors replaced: 0
+  missing numbers: None
+  bad dimensions: None
+  remaining black side-bar issues: 0
+  validation result: SUCCESS
+
+- scene: vehicle-scene
+  output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports_300_fixed\vehicle-scene
+  source frame count: 150
+  output frame count: 300
+  first frame: frame_001_00000.webp
+  last frame: frame_001_00299.webp
+  normalization methods: unchanged
+  side-bar fixes applied: 0
+  blur source anchors replaced: 3
+  missing numbers: None
+  bad dimensions: None
+  remaining black side-bar issues: 0
+  validation result: SUCCESS
+
+any remaining risk:
+- nearest-frame expansion keeps frames crisp and removes ghosting, but motion is held between source anchors rather than optical-flow interpolated
+
+final status: SUCCESS
