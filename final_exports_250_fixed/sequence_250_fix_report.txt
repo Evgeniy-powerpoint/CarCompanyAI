@@ -1,0 +1,75 @@
+source folders used:
+- hero-interior: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports\hero-interior
+- map-route: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports_300_fixed\map-route
+- vehicle-scene: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports\vehicle-scene
+
+comparison folders checked:
+- D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports_300_fixed
+- D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports_300
+
+why 250 frames were created:
+- 250 frames provides a middle ground: smoother than the 150-frame source while avoiding the visible softness/smearing seen in the 300-frame interpolated package
+
+method used to convert 150 frames to 250:
+- used the original 150-frame final_exports package as the sharp source for hero-interior and vehicle-scene
+- used final_exports_300_fixed for map-route because the original 150-frame map-route source has baked-in black side bars
+- resampled the timeline to 250 frames with nearest sharp source-frame mapping
+- avoided linear frame blending so every added frame remains crisp rather than ghosted
+- applied source-anchor blur checks and replaced unusually soft anchors with sharper adjacent source frames
+
+WEBP export settings:
+- quality: 96
+- method: 6
+- dimensions: 1920x880
+
+validation result per scene:
+- scene: hero-interior
+  output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports_250_fixed\hero-interior
+  source frame count: 150
+  output frame count: 250
+  first frame: frame_001_00000.webp
+  last frame: frame_001_00249.webp
+  normalization methods: unchanged
+  black side bar frames detected/fixed: 0
+  remaining black side bar issues: 0
+  blur/quality source anchors replaced: 0
+  bad dimensions: None
+  bad names: None
+  first and last frames open: YES
+  validation result: SUCCESS
+
+- scene: map-route
+  output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports_250_fixed\map-route
+  source frame count: 300
+  output frame count: 250
+  first frame: frame_001_00000.webp
+  last frame: frame_001_00249.webp
+  normalization methods: unchanged
+  black side bar frames detected/fixed: 0
+  remaining black side bar issues: 0
+  blur/quality source anchors replaced: 0
+  bad dimensions: None
+  bad names: None
+  first and last frames open: YES
+  validation result: SUCCESS
+
+- scene: vehicle-scene
+  output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\final_exports_250_fixed\vehicle-scene
+  source frame count: 150
+  output frame count: 250
+  first frame: frame_001_00000.webp
+  last frame: frame_001_00249.webp
+  normalization methods: unchanged
+  black side bar frames detected/fixed: 0
+  remaining black side bar issues: 0
+  blur/quality source anchors replaced: 1
+  bad dimensions: None
+  bad names: None
+  first and last frames open: YES
+  validation result: SUCCESS
+
+remaining risks:
+- nearest-frame resampling intentionally favors sharpness over optical-flow smoothness, so some source frames are held briefly
+- map-route black side areas are handled with same-frame background fill where the source composition cannot fill 1920x880 without distortion
+
+final status: SUCCESS
