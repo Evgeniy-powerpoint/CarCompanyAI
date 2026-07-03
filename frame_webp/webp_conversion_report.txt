@@ -1,0 +1,38 @@
+WEBP conversion report
+
+source zip: D:\Dev\_LOCAL_TEMP\frame_webp_job\frame.zip
+output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\frame_webp
+quality: 96
+method: 6
+
+source mapping:
+- pc: dektop/Comp 1/ -> frame_webp/pc/
+- mob: Comp 1/ -> frame_webp/mob/
+
+pc:
+- source folder: dektop/Comp 1/
+- output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\frame_webp\pc
+- PNG count: 300
+- WEBP count: 300
+- dimensions: 1920x1080
+- first file: frame_00000.webp
+- last file: frame_00299.webp
+- failed files: None
+- naming issues: None
+- first/last open: YES
+- status: SUCCESS
+
+mob:
+- source folder: Comp 1/
+- output folder: D:\Dev\_LOCAL_TEMP\CarCompanyAI_release_fix\frame_webp\mob
+- PNG count: 300
+- WEBP count: 300
+- dimensions: 1080x1920
+- first file: frame_00000.webp
+- last file: frame_00299.webp
+- failed files: None
+- naming issues: None
+- first/last open: YES
+- status: SUCCESS
+
+final status: SUCCESS
